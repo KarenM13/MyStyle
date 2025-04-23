@@ -1,0 +1,382 @@
+
+@media (max-width: 1245px) {
+    .nav_links{
+        top: 100px;
+        left: 10px;
+        right: 10px;
+        position: fixed;
+        margin: 0 auto;
+        width: 90%;
+        height: 500px;
+        border-radius: 20px;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0 0 5px #441752;
+        transition: translate .3s;
+        translate: 0 -800px;
+        
+      
+    }
+    
+    .nav_links:target{
+        transition: translate .3s;
+        translate: 0;
+    }
+    .nav_link{
+        display: grid;
+        justify-content: center;
+       
+    }
+   
+    .btn{
+        display: none;
+    }
+
+    .iconBar{
+        display: block ;
+    }
+    
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 25px;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 25px;
+    }
+    .header-main{
+        height:1400px;
+    }
+    .header-other{
+        height: 900px;
+    }
+    .galeria{
+       grid-template-columns: repeat(1,1fr);
+    }
+    .section-text{
+        margin: 0;
+    }
+    .galeria{
+       grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 1281px) {
+ 
+
+    .btn{
+        display: block;
+    }
+
+    .iconBar{
+        display: none ;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 30px;
+    }
+    .header-main{
+        height:1000px;
+    }
+    .header-other{
+        height: 600px;
+    }
+    .galeria{
+       grid-template-columns: repeat(3,1fr);
+    }
+    .section-text{
+        margin: 0;
+    }
+}
+@media (max-width: 1025px) {
+ 
+    
+    .btn{
+        display: none;
+    }
+
+    .iconBar{
+        display: block ;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 30px;
+    }
+    .header-main{
+        height:1100px;
+    }
+    .header-other{
+        height: 600px;
+    }
+    .galeria{
+       grid-template-columns: repeat(2,1fr);
+    }
+    .section-text{
+        margin: 0;
+    }
+}
+@media (max-width: 912px) {
+ 
+
+    .btn{
+        display: none;
+    }
+
+    .iconBar{
+        display: block ;
+    }
+    .header-other{
+        height: 600px;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 25px;
+    }
+    .header-main{
+        height: auto;
+    }
+    .header-other{
+        height: 500px;
+    }
+    .galeria{
+       grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 878px) {
+ 
+
+    .btn{
+        display: none;
+    }
+
+    .iconBar{
+        display: block ;
+    }
+    .header-other{
+        height: 600px;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 25px;
+    }
+    .header-main{
+        height: auto;
+    }
+    .header-other{
+        height: 500px;
+    }
+    .galeria{
+       grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 769px) {
+ 
+
+    .btn{
+        display: none;
+    }
+
+    .iconBar{
+        display: block ;
+    }
+    .header-other{
+        height: 600px;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 25px;
+    }
+    .header-main{
+        height: auto;
+    }
+    .header-other{
+        height: 500px;
+    }
+    .galeria{
+       grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 616px) {
+ 
+
+    .btn{
+        display: none;
+    }
+
+    .iconBar{
+        display: block ;
+    }
+    .header-other{
+        height: 600px;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 25px;
+    }
+    .header-main{
+        height: auto;
+    }
+    .header-other{
+        height: 500px;
+    }
+    .galeria{
+       grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width: 541px) {
+ 
+
+    .btn{
+        display: none;
+    }
+
+    .iconBar{
+        display: block ;
+    }
+    .header-other{
+        height: 600px;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 25px;
+    }
+    .header-main{
+        height: auto;
+    }
+    .header-other{
+        height: 700px;
+    }
+    .galeria{
+       grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width: 431px) {
+    .btn{
+        display: none;
+    }
+
+    .iconBar{
+        display: block ;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 25px;
+    }
+    .header-main{
+        height:1400px;
+    }
+    .header-other{
+        height: 900px;
+    }
+    .galeria{
+       grid-template-columns: repeat(1,1fr);
+    }
+    .section-text{
+        margin: 0;
+    }
+}
+@media (max-width: 415px) {
+
+    .btn{
+        display: none;
+    }
+
+    .iconBar{
+        display: block ;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 25px;
+    }
+    .header-main{
+        height:1400px;
+    }
+    .header-other{
+        height: 900px;
+    }
+    .galeria{
+       grid-template-columns: repeat(1,1fr);
+    }
+    .section-text{
+        margin: 0;
+    }
+}
+@media (max-width: 376px) {
+ 
+
+    .btn{
+        display: none;
+    }
+
+    .iconBar{
+        display: block ;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 25px;
+    }
+    .header-main{
+        height:1400px;
+    }
+    .header-other{
+        height: 900px;
+    }
+    .galeria{
+       grid-template-columns: repeat(1,1fr);
+    }
+    .section-text{
+        margin: 0;
+    }
+}
+@media (max-width: 344px) {
+ 
+
+    .btn{
+        display: none;
+    }
+
+    .iconBar{
+        display: block ;
+    }
+    .headder-title{
+        margin-bottom: 0px;
+    }
+    .header_paragraph{
+        font-size: 23px;
+    }
+    .header-main{
+        height:1400px;
+    }
+    .header-other{
+        height: 900px;
+    }
+    .galeria{
+       grid-template-columns: repeat(1,1fr);
+    }
+    .section-text{
+        margin: 0;
+    }
+}
